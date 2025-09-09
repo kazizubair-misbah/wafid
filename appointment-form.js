@@ -1,5 +1,6 @@
 $(function () {
 
+    console.log("Booking appointment form.js loaded via Tampermonkey!");
     function getSelectedAppointmentType() {
         // Find the selected radio button
         const selectedRadioButton = $('input[name="appointment_type"]:checked');
